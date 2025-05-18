@@ -37,7 +37,7 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
+          {}
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="text-gray-700 hover:text-vidaplus-red transition-colors">
               Serviços
@@ -53,7 +53,7 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* User Actions */}
+          {}
           <div className="hidden md:flex items-center space-x-4">
             {user ? (
               <div className="flex items-center">
@@ -74,7 +74,7 @@ const Header = () => {
             )}
           </div>
 
-          {/* Mobile Menu Button */}
+          {}
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-gray-700">
               {isMenuOpen ? <X /> : <AlignRight />}
@@ -83,7 +83,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {}
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-lg animate-slide-in">
           <div className="px-4 pt-2 pb-4 space-y-3">
