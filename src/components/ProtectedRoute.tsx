@@ -20,7 +20,7 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children, userType }) =
   }
 
   if (userType && user.userType !== userType) {
-    // If specific user type is required but user doesn't match
+    
     return <Navigate to="/help" replace />;
   }
 
